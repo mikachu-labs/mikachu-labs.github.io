@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>100by100 privacy policy</title>
+  <meta name="description" content="Privacy policy for 100by100, an offline bodyweight challenge tracker for Android by mikachu labs.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#E4E4DE">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0A0A0A">
+  <link rel="canonical" href="https://mikachu-labs.github.io/100by100/privacy/">
+  <link rel="alternate" hreflang="en" href="https://mikachu-labs.github.io/100by100/privacy/">
+  <link rel="alternate" hreflang="uk" href="https://mikachu-labs.github.io/100by100/privacy/uk/">
+  <link rel="alternate" hreflang="x-default" href="https://mikachu-labs.github.io/100by100/privacy/">
+  <link rel="icon" href="../../assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="container">
+      <a class="wordmark" href="../../100by100/"><img src="../../assets/icon.svg" alt="" width="28" height="28">100by100</a>
+      <nav aria-label="Language">
+        <ul>
+          <li><a href="../../100by100/privacy/" hreflang="en" lang="en" aria-current="page">English</a></li>
+          <li><a href="../../100by100/privacy/uk/" hreflang="uk" lang="uk">Українська</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <header class="doc-head">
+        <h1>Privacy policy</h1>
+        <p class="lead">For 100by100, a bodyweight challenge tracker for Android made by mikachu labs.</p>
+        <dl class="doc-meta">
+          <dt>Effective</dt><dd><time datetime="2026-10-28">28 October 2026</time></dd>
+          <dt>Developer</dt><dd>mikachu labs</dd>
+          <dt>Contact</dt><dd><a href="mailto:mikachu.labs@gmail.com">mikachu.labs@gmail.com</a></dd>
+        </dl>
+      </header>
+    </div>
+
+    <section class="band summary" aria-labelledby="short">
+      <div class="container">
+        <h2 id="short">The short version</h2>
+        <ul>
+          <li>100by100 has no internet access.</li>
+          <li>We do not collect, receive or share any of your data.</li>
+          <li>There is no account, no advertising, no analytics and no crash reporting.</li>
+          <li>Your data stays on your phone and in your phone’s own backup.</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="container">
+      <article class="prose">
+        <section aria-labelledby="s-stored">
+          <h2 id="s-stored">What the app keeps, and where</h2>
+          <p>Everything 100by100 needs is stored on your phone, in the app’s private storage:</p>
+          <ul>
+            <li>your challenges, exercises, daily norms and the reps you log;</li>
+            <li>your settings, such as theme, language and reminder times;</li>
+            <li>the photos of the first and last day, if you add them;</li>
+            <li>a log of technical events the app uses to check its own data.</li>
+          </ul>
+          <p>None of this is sent to us or to anyone else. The app does not ask for your name, email address or any account.</p>
+        </section>
+
+        <section aria-labelledby="s-backup">
+          <h2 id="s-backup">Your phone’s own backup</h2>
+          <p>Android can back up app data to your Google account and move it to a new phone (Android Auto Backup and device transfer). 100by100 lets Android include its database, its photos and its interface settings, so your challenge can come back after you change phones.</p>
+          <p>This copy is made by Android and kept in your Google account. We do not receive it and cannot see it. You can turn backup off in your phone’s settings.</p>
+          <p>If a photo would push the app over the space Android allows for its backup, the app keeps that photo on the phone only, and the app’s settings show how many photos are not backed up. Temporary files, such as exports, are never included.</p>
+        </section>
+
+        <section aria-labelledby="s-photos">
+          <h2 id="s-photos">Photos</h2>
+          <p>You choose a photo with Android’s system photo picker. The app receives only the picture you pick and has no access to the rest of your gallery. 100by100 does not use the camera.</p>
+          <p>The app saves its own copy, resized so the longer side is at most 1600 pixels. The copy is encoded again from the pixels, so it carries no EXIF data: no location (GPS), no camera details, no time stamp from the original file.</p>
+        </section>
+
+        <section aria-labelledby="s-share">
+          <h2 id="s-share">When data leaves the phone</h2>
+          <p>Only when you send it yourself, to the place you choose in Android’s share menu:</p>
+          <ul>
+            <li><strong>Export.</strong> A backup file (<code>.jsonl</code>, with your photos) and a table of your entries (<code>.csv</code>). Restoring a backup reads only the file you pick.</li>
+            <li><strong>Progress card.</strong> An image of your progress, with or without photos, to share where you like.</li>
+            <li><strong>Diagnostics.</strong> If something goes wrong, you can share a diagnostics file. It holds technical events only, with no exercise names, numbers or photos. If you email it to us, we use it only to look into the problem you report.</li>
+          </ul>
+          <p>Once you share a file, the app or service you send it to handles it under its own terms.</p>
+        </section>
+
+        <section class="wide" aria-labelledby="s-perms">
+          <h2 id="s-perms">Reminders and permissions</h2>
+          <p>Reminders are scheduled and shown on the phone itself; nothing is sent from a server. Below is every permission in the app, including those added by the Android libraries it uses.</p>
+          <div class="sheet permissions">
+            <table class="facts">
+              <thead>
+                <tr><th scope="col">Permission</th><th scope="col">Why the app has it</th></tr>
+              </thead>
+              <tbody>
+                <tr><th scope="row"><code>POST_NOTIFICATIONS</code></th><td>Shows your reminders: the evening one at the time you choose, and a morning one if yesterday is not done. On Android 13 and later the app asks first; you can say no or turn it off at any time.</td></tr>
+                <tr><th scope="row"><code>RECEIVE_BOOT_COMPLETED</code></th><td>Sets your reminders and widget updates again after the phone restarts.</td></tr>
+                <tr><th scope="row"><code>VIBRATE</code></th><td>Haptic feedback while you log reps. You can turn it off in the app’s settings.</td></tr>
+                <tr><th scope="row"><code>WAKE_LOCK</code>, <code>FOREGROUND_SERVICE</code>, <code>ACCESS_NETWORK_STATE</code></th><td>Added by WorkManager, the Android library that refreshes the home screen widgets. <code>ACCESS_NETWORK_STATE</code> only lets that library check whether a network is available; without the internet permission, the app cannot connect to anything.</td></tr>
+                <tr><th scope="row"><code>DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code></th><td>A permission private to this app, added by the AndroidX library, that keeps the app’s internal signals inside the app.</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>The app does not request internet access, location, camera, contacts, microphone or access to your files and media.</p>
+        </section>
+
+        <section aria-labelledby="s-play">
+          <h2 id="s-play">Google Play</h2>
+          <p>You install 100by100 from Google Play, and Google handles that under its own privacy policy. Google Play gives developers aggregated statistics, such as install counts and crash rates, from people who allow their phone to share usage and diagnostics with Google. The app itself sends nothing.</p>
+        </section>
+
+        <section aria-labelledby="s-delete">
+          <h2 id="s-delete">Deleting your data</h2>
+          <ul>
+            <li>To delete everything on the phone, uninstall the app, or clear its storage in Android settings (Apps, then 100by100, then Storage).</li>
+            <li>To delete the copy in your Google account, remove it in your phone’s or Google account’s backup settings.</li>
+            <li>Files you exported or shared are yours; delete them where you saved or sent them.</li>
+          </ul>
+          <p>We hold no data about you, so there is nothing for us to delete. If you emailed us, ask and we will delete your messages.</p>
+        </section>
+
+        <section aria-labelledby="s-children">
+          <h2 id="s-children">Children</h2>
+          <p>100by100 is not directed at children. It collects no personal data from anyone, children included.</p>
+        </section>
+
+        <section aria-labelledby="s-changes">
+          <h2 id="s-changes">Changes to this policy</h2>
+          <p>If the app starts handling data differently, we will update this page and its effective date before that version is released.</p>
+        </section>
+
+        <section aria-labelledby="s-contact">
+          <h2 id="s-contact">Contact</h2>
+          <p>Questions about this policy: <a href="mailto:mikachu.labs@gmail.com">mikachu.labs@gmail.com</a>.</p>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>100by100 by <a href="../../">mikachu labs</a></p>
+      <ul>
+        <li><a href="../../100by100/">About the app</a></li>
+        <li><a href="../../100by100/privacy/uk/" hreflang="uk" lang="uk">Українською</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
